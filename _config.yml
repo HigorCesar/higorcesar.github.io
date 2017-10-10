@@ -1,0 +1,39 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: disqus_A9EnzaR4Kq
+google_analytics: UA-107847660-1
+title: Higor César
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Learn |> Apply |> Share
+
+description: Stylish Jekyll Theme
+author:
+  name: Higor César Ramos
+  email: higor.crr@gmail.com
+  github: higorcesar
+  twitter: higorcesar
+  linkedin: higorcesar
+  bio: Brazilian software engineer living in the Netherlands excited about .NET, functional programming, domain driven design, CQRS, Cloud, Microservices and so on.
+  email_md5: 4b98e77e621389c3431bdb7f5c9edcdb
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+gems:
+  - jekyll-paginate
