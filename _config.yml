@@ -5,7 +5,7 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: higorcesar.githubio
+disqus: higortechblog
 google_analytics: UA-107847660-1
 title: Higor César
 
