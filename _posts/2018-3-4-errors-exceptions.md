@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Errors, Exceptions, and whatnot
-categories: [FSharp, functional programming, domain modeling]
+categories: [programming]
+tags: [FSharp, functional programming, domain modeling]
 fullview: true
 comments: true
 ---
